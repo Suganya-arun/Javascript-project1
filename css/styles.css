@@ -1,3 +1,169 @@
 body{
     color:black;
+    background-color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.25rem;
 }
+main{
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    margin-top:4rem;
+}
+h1{
+    /*  */
+    font-size: x-large;
+}
+p{
+    /* opacity:90%; */
+    font-size: small;
+}
+.image
+{
+    margin-top:5rem;
+}
+.logo
+{
+    margin-bottom: 2rem;
+    width:70px;
+}
+.illustration
+{
+    width:325px;
+}
+.form
+{
+    margin-top: 1rem;
+}
+input[type=email]
+{
+    width:270px;
+    padding:4%;
+    padding-left: 8%;
+    border:1px solid hsl(223, 100%, 88%);
+    border-radius: 2rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+input:focus
+{
+    background-color:transparent;
+}
+input:focus-visible
+{
+
+    border-color:hsl(223, 87%, 63%);
+}
+
+input[type=submit]
+{
+     width:321px;
+    padding:4%;
+    padding-left: 8%;
+    border:1px solid hsl(223, 100%, 88%);
+    color: white;
+    border-radius: 2rem;
+    text-align: center;  
+    background-color:  hsl(223, 87%, 63%);
+    box-shadow:5px 5px 10px hsl(223, 100%, 88%);
+}
+input[type=submit]:hover
+{
+cursor: pointer;
+opacity: 90%;
+}
+::placeholder
+{
+    color:hsl(223, 100%, 88%); 
+    /* font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size:small; */
+ 
+}
+.social-media-icons
+{
+    margin-top:10rem;
+    margin-bottom: 2rem;
+}
+.fa-brands
+{
+    /* height:25px;
+    width:25px; */
+    border:1px solid hsl(223, 100%, 88%);
+    color:hsl(223, 87%, 63%);
+    border-radius: 50%;
+    padding:10px;
+    margin-right:1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.fa-brands:hover
+{
+    background-color:hsl(223, 87%, 63%) ;
+    color:white;
+}
+small{
+    font-size: small;
+    color:red;
+    margin:0px;
+    padding:0px;
+    font-style: italic;
+    /* position: relative;
+    bottom:1rem; */
+}
+.mailid
+{
+    display: flex;
+    flex-direction: column;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+@media screen and (width>500px)
+{
+.form
+{
+    display:grid;
+     grid-template-columns: auto auto;
+    gap:60px;
+}
+input[type=submit]
+{
+     width:200px;
+     height: 50px;
+     /* padding: 8%; */
+     padding:0;
+}
+input[type=email]
+{
+    width:400px;
+     /* padding: 4%; */
+}
+h1{
+    /*  */
+    font-size: 3.5rem;
+}
+p{
+  font-size:1.5rem;  
+}
+.logo{
+    width:100px;
+}
+.illustration
+{
+    width:650px;
+}
+small{
+    font-size: small;
+    color:red;
+    margin:0px;
+    padding:0px;
+    font-style: italic;
+    /* position: absolute;
+    bottom:100px; */
+}
+.mailid
+{
+    display: flex;
+    flex-direction: column;
+}
+} 

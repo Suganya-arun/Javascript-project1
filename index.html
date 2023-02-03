@@ -1,12 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/c285f3dca8.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Ping coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
 </head>
+
 <body>
-    
+  <main>
+    <div class="container-1">
+      <img class="logo" src="./images/logo.svg" alt="PING-logo">
+
+      <h1><span style="color:hsl(0, 0%, 59%);font-weight: 400;">We are launching </span>soon!</h1>
+
+      <p>Subscribe and get notified</p>
+    </div>
+
+    <form id="form1" novalidate>
+      <div class="form">
+        <div class="mailid">
+          <input id="emailid" type="email" name="emailid" placeholder="Your email address..">
+          <small></small>
+        </div>
+        <input id="submitform" type="submit" value="Notify Me">
+      </div>
+    </form>
+    </div>
+    <div class="image">
+      <img class="illustration" src="./images/illustration-dashboard.png" alt="illustration-dashboard">
+    </div>
+    <div class="social-media-icons">
+      <a href="www.facebook.com" class="fa-brands fa-facebook-f"></a>
+      <a href="www.twitter.com" class="fa-brands fa-twitter"></a>
+      <a href="www.instagram.com" class="fa-brands fa-instagram"></a>
+    </div>
+    <p><span style="font-size:small;color:hsl(0, 0%, 59%);margin-top:1rem;"> &copy; Copyright Ping. All rights
+        reserved.</span></p>
+
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Suganya Arun</a>.
+      </p>
+    </footer>
+  </main>
+  <script src="./js/script.js"></script>
 </body>
+
 </html>
